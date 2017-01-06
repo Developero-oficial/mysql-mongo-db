@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "coverage": "istanbul cover node_modules/tape/bin/tape -- test/*-test.js ",
-    "stand": "standar",
-    "test": "npm run stand && node_modules/tape/bin/tape -- test/*-test.js"
+    "stand": "standard",
+    "test": "tape -- test/*-test.js | tap-spec"
   },
   "repository": {
     "type": "git",
