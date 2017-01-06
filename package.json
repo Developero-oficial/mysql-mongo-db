@@ -1,0 +1,36 @@
+{
+  "name": "mysql-mongo-db",
+  "version": "1.0.0",
+  "description": "Mysql and Mongodb interface for basic database operations",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "istanbul cover node_modules/tape/bin/tape -- test/*-test.js ",
+    "stand": "standar",
+    "test": "npm run stand && node_modules/tape/bin/tape -- test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Developero-official/mysql-mongo-db.git"
+  },
+  "keywords": [
+    "mysql",
+    "mongodb",
+    "database"
+  ],
+  "author": "Juan Correa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Developero-official/mysql-mongo-db/issues"
+  },
+  "homepage": "https://github.com/Developero-official/mysql-mongo-db#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "mongoose": "^4.7.6",
+    "mysql": "^2.12.0",
+    "standard": "^8.6.0"
+  }
+}
