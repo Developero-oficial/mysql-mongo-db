@@ -2,8 +2,7 @@
 
 const MongoDB = require('./lib/MongoDB/MongoDB.js')
 
-let config = 
-  {
+let config = {
     host: 'localhost',
     user: '',
     pass: '',
