@@ -4,9 +4,9 @@
   "description": "Mysql and Mongodb interface for basic database operations",
   "main": "index.js",
   "scripts": {
-    "coverage": "istanbul cover node_modules/tape/bin/tape -- test/*-test.js ",
+    "coverage": "istanbul cover node_modules/tape/bin/tape -- test/*/*-test.js ",
     "stand": "standard",
-    "test": "tape -- test/*-test.js | tap-spec"
+    "test": "npm run stand && tape -- test/*/*-test.js | tap-spec"
   },
   "repository": {
     "type": "git",
