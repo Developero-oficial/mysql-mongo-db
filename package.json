@@ -6,7 +6,7 @@
   "scripts": {
     "coverage": "istanbul cover node_modules/tape/bin/tape -- test/*/*-test.js ",
     "stand": "standard",
-    "test": "npm run stand && tape -- test/MySQL-test/*-test.js | tap-spec"
+    "test": "npm run stand && tape -- test/*-test/*-test.js | tap-spec"
   },
   "repository": {
     "type": "git",
