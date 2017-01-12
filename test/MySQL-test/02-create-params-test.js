@@ -8,10 +8,12 @@ test('Should create params for database operations', t => {
   let config = { host: 'localhost', user: 'root', pass: '', db: 'test' }
   mysql.connect(config, (err) => {
     if (err) throw err
-    let params = {where: 'id_pruebas = 9'}
+    let credenciales = {name: 'John Doe', password: '$2a$10 $a5aS', instancia: 'test'}
+    let params = {where: `usu_nombre = ${credenciales.name}`, and: `usu_contraseña = ${credenciales.password}`, limit: '10', group_by: 'nombre'}
     let res = mysql.isObject(params)
     t.ok(res, 'Params should be an object')
     let sentence = mysql.generate(params)
+    console.log(sentence)
     t.equals(typeof sentence, 'string', 'Should be a string sentence')
     mysql.close()
     t.end()

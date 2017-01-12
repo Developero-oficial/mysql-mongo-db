@@ -1,10 +1,10 @@
 'use strict'
 
 const test = require('tape')
-const Db = require('../../lib/MySQL/MySQL.js')
+const Db = require('../../index')
 
 test('Should select data in db', t => {
-  const mysql = new Db()
+  const mysql = Db.createDB('MySQL')
   let config = { host: 'localhost', user: 'root', pass: '', db: 'test' }
   mysql.connect(config, (err) => {
     if (err) throw err

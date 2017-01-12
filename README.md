@@ -1,11 +1,3 @@
-+mysql-mongo-db
-+==========
-+
-+Módulo para hacer operaciones a base de datos con Mysql y Mongodb.
-+
-+
-+Ejemplos de uso
-+--------------------
 ## Synopsis
 
 This is a **Mysql** and **Mongodb** interface for basic database operations (CRUD). 
@@ -108,7 +100,7 @@ mysql.select('my_table', columns, selectParams, (err, res, fields) => {
 ```
 
 **CRUD Mongogb**
-After crud, you need create a schema and model:
+Before crud, you need create a schema and model:
 
 ``` js
 // Basic schema, you can do more complex if you want

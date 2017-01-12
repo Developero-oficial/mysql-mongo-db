@@ -1,0 +1,71 @@
+commit a8e339e7cead6ec71202598c9b4f94f65c6ffc2e
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Tue Jan 10 10:48:52 2017 -0600
+
+    09 - Se complementa README.td
+
+commit 750d4ffa55720d4b00363aa9be862af6ab73a088
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Tue Jan 10 09:34:25 2017 -0600
+
+    08 - Se crea codigo en index para exportar las clases mongodb y mysql
+
+commit ce0e0ac9b84c3b3855959bbff416b45a250fc55a
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Tue Jan 10 09:12:01 2017 -0600
+
+    07 - Test Factory completo
+
+commit afb79b31a9686e25a67d742378a2c542e97a21c2
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Mon Jan 9 18:25:33 2017 -0600
+
+    Readme agregado
+
+commit f4ad0d58f8f9866decb66545d9bec8709ada25c1
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Mon Jan 9 17:56:28 2017 -0600
+
+    06 - Test crud completo
+
+commit 8f96c322f3cec51503dd13b60b96e7882a46b403
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Mon Jan 9 16:10:20 2017 -0600
+
+    05 - Test creacuib de instancia y conexion de mysql completo
+
+commit 72a7678fd96c1e197bfe4d4304c010a4db47a656
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Mon Jan 9 14:01:27 2017 -0600
+
+    04 - Test crud completo
+
+commit b360e04bfc38904441cdffdc0849161c0a68531f
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Mon Jan 9 11:44:33 2017 -0600
+
+    03 - Test validar creacion de schema y model
+
+commit 6dfbbd62cfaeb122327b9872aa4a30b4c0165d24
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Mon Jan 9 10:43:59 2017 -0600
+
+    Se refactoriza codigo segun standard
+
+commit 112442056ae314f6509e46974cc484f4a94298ee
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Mon Jan 9 10:22:15 2017 -0600
+
+    02 - Test validar exito y error en la conexion de mongodb completo
+
+commit 81b0fec02f363aac837c68b564d7e1e38c03a789
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Fri Jan 6 17:29:25 2017 -0600
+
+    01 - Test creacion de instancia de MongoDB completo
+
+commit 900bbb53444f8ced761048c35e079b4015c3e449
+Author: Juan Correa <juan.correa.herrera@gmail.com>
+Date:   Fri Jan 6 15:40:15 2017 -0600
+
+    0 - Repositorio inicial
