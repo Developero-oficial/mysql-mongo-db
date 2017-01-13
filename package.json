@@ -1,12 +1,12 @@
 {
   "name": "mysql-mongo-db",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Mysql and Mongodb interface for basic database operations",
   "main": "index.js",
   "scripts": {
     "coverage": "istanbul cover node_modules/tape/bin/tape -- test/*/*-test.js ",
     "stand": "standard",
-    "test": "npm run stand && tape -- test/MySQL-test/*-test.js | tap-spec"
+    "test": "npm run stand && tape -- test/MySQL-test/03*-test.js | tap-spec"
   },
   "repository": {
     "type": "git",

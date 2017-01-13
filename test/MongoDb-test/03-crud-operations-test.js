@@ -30,18 +30,27 @@ test('Should execute all the find methods declarated', t => {
     let itemSchema = mongoDb.create({item: String, valor: Number, existencia: Number})
     const ItemModel = mongoDb.createModel('items', itemSchema)
     mongoDb.find(ItemModel, null, (err, docs) => {
+      console.log(docs)
       t.error(err, 'Should not be error')
       t.ok(docs, 'Should be the docs found')
     })
     mongoDb.find(ItemModel, {tiem: 1}, (err, docs) => {
+      console.log(docs)
       t.error(err, 'Should not be error')
       t.ok(docs, 'Should be the docs found with the params')
     })
     mongoDb.findOne(ItemModel, (err, docs) => {
+      console.log(docs)
       t.error(err, 'Should not be error')
       t.ok(docs, 'Should be the doc found with findOne')
     })
-    mongoDb.findById(ItemModel, '5873e9666e75a111102c073b', (err, docs) => {
+    mongoDb.findOne(ItemModel, {item: 'xbox'}, (err, docs) => {
+      console.log(docs)
+      t.error(err, 'Should not be error')
+      t.ok(docs, 'Should be the doc found with findOne and params')
+    })
+    mongoDb.findById(ItemModel, '5878ebd4851ebd144c971439', (err, docs) => {
+      console.log(docs)
       t.error(err, 'Should not be error')
       t.ok(docs, 'Should be the doc found with id')
       mongoDb.close((res) => {
